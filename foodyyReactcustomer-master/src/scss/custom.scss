@@ -1,0 +1,33 @@
+.place-center {
+  display: grid;
+  align-items: center;
+}
+
+.categories {
+  height: 7.5rem;
+  overflowx: scroll;
+  padding: 1rem;
+  overflowy: hidden;
+}
+
+.categories::-webkit-scrollbar {
+  display: none;
+}
+.categories::-webkit-scrollbar-track {
+  display: none;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+textarea {
+  border: none;
+  outline: none;
+  padding: 0.6rem;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+input[type="file"] {
+  display: none;
+}

@@ -1,0 +1,26 @@
+@import "colors.scss";
+@import "custom.scss";
+@import "switch.scss";
+
+.categories {
+  height: 10.5rem;
+  overflow-x: scroll;
+  padding: 1rem;
+  overflow-y: hidden;
+}
+
+.categories::-webkit-scrollbar {
+  display: none;
+}
+
+.primaryColor {
+  background-color: #d60664;
+  color: white;
+}
+.primaryFont {
+  color: #d60664;
+}
+$primary: #d60664;
+$secondary: #f8f8f8;
+
+@import "~bootstrap/scss/bootstrap";
